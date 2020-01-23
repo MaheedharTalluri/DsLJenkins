@@ -1,4 +1,4 @@
-import groovy.json.JsonSlurper
+import groovy.json.*
 
 def jS = new JsonSlurper()
 var=jsonSlurper.parseText('/sample.json')
