@@ -14,7 +14,7 @@ println(job)
 
 
 
-pipelineJob('job') {
+pipelineJob(job) {
 
 
 definition{
