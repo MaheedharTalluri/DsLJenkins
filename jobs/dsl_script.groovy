@@ -8,7 +8,7 @@
 
 
 
-pipelineJob(jobname) {
+pipelineJob() {
 
 
 definition{
