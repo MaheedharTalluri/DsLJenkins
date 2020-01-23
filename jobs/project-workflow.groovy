@@ -1,5 +1,9 @@
 scm {
-        git {
+script {
+           
+            sandbox(true)
+          }
+        /*git {
             remote {
                 name('origin')
                 url('https://github.com/maheedhar132/Devops_assesment.git')
@@ -8,5 +12,5 @@ scm {
                 cleanAfterCheckout()
                 relativeTargetDirectory('Devops_assesment')
             }
-        }
+        }*/
     }
