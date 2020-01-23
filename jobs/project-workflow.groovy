@@ -2,7 +2,7 @@
 
 
 
-
+definition{
 cpsScm {
  scm {
         git {
@@ -17,7 +17,7 @@ cpsScm {
         }
     }
 }
-
+}
 
 
 
