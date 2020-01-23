@@ -1,6 +1,15 @@
+import groovy.json.JsonSlurper
+
+def jS = new JsonSlurper()
+var=jsonSlurper.parseText('/sample.json')
+def job=var['job_name']
 
 
-pipelineJob('DslJob') {
+
+
+
+
+pipelineJob('${job}') {
 definition{
 cpsScm {
 scm {
