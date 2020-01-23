@@ -8,7 +8,7 @@
 
 
 
-pipelineJob( String[]  ) {
+pipelineJob(FILE_NAME) {
 
 
 definition{
