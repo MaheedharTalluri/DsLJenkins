@@ -8,7 +8,7 @@
 
 
 
-pipelineJob(   ) {
+pipelineJob( String[]  ) {
 
 
 definition{
