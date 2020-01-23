@@ -8,4 +8,7 @@ String j2=j1.replace("[","");
 String job=j2.replace("]","");
 def jobname=job
 println(job)
+
+run("/var/lib/jenkins/workspace/testseed/jobs/dsl_script.groovy", ["filename";)
+
 run(("/var/lib/jenkins/workspace/testseed/jobs/dsl_script.groovy"),['filename'] as String[])
