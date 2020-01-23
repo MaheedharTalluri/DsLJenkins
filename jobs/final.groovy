@@ -9,5 +9,5 @@ String job=j2.replace("]","");
 def jobname=job
 println(job)
 
-run("/var/lib/jenkins/workspace/testseed/jobs/dsl_script.groovy", ["${jobname}"] as String[])
+run("/var/lib/jenkins/workspace/testseed/jobs/dsl_script.groovy")
 
