@@ -1,7 +1,7 @@
 
 
 
-pipelinejob('job1'){
+pipelineJob('job1'){
 definition{
 cpsScm {
  scm {
