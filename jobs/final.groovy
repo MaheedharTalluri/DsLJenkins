@@ -7,7 +7,7 @@ String j1=data.ci.jobs.job.job_name
 String j2=j1.replace("[","");
 String job=j2.replace("]","");
 def jobname=job
-System.setProperty("JOB_NAME", "jobname")
-println(JOB_NAME)
+System.setProperty("NAME", "jobname")
+println(NAME)
 //context.testCase.setPropertyValue('JOB_NAME', 'jobname')
 evaluate(new File("/var/lib/jenkins/workspace/testseed/jobs/dsl_script.groovy"))
