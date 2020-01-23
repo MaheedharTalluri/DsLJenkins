@@ -1,5 +1,5 @@
 evaluate(new File("/var/lib/jenkins/workspace/testseed/jobs/final.groovy"))
-
+println(job)
 pipelineJob('job') {
 
 
