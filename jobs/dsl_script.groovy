@@ -1,6 +1,6 @@
 evaluate(new File("/var/lib/jenkins/workspace/testseed/jobs/final.groovy"))
 
-pipelineJob(${job}) {
+pipelineJob(use(job)) {
 
 
 definition{
