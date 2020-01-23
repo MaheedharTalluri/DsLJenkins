@@ -1,4 +1,4 @@
-groovyScriptFile(var.groovy){
+groovyScriptFile('var.groovy'){
 classpath('.')
 }
 
