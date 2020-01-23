@@ -1,5 +1,5 @@
 import groovy.json.*
-class Json{
+
 def jS = new JsonSlurper()
  def reader = new BufferedReader(new InputStreamReader(new FileInputStream("/var/lib/jenkins/workspace/testseed/sample.json"),"UTF-8"))
 def data = jS.parse(reader)  
@@ -10,4 +10,3 @@ static def jobname=job
 
 //context.testCase.setPropertyValue('JOB_NAME', 'jobname')
 evaluate(new File("/var/lib/jenkins/workspace/testseed/jobs/dsl_script.groovy"))
-}
