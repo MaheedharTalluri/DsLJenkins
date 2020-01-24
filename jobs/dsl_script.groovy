@@ -1,5 +1,5 @@
 /*evaluate(new File("/var/lib/jenkins/workspace/testseed/jobs/final.groovy"))*/
-
+scripts{
 import groovy.json.*
 
 
@@ -13,7 +13,7 @@ String file=f1.replace("]","");
 println(file)
 
 println(file.getClass())
-
+}
 pipelineJob('EDN250') {
 
 
