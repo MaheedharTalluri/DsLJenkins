@@ -5,7 +5,7 @@ evaluate(new File("/var/lib/jenkins/workspace/testseed/jobs/connect.groovy"))
 
 GroovyShell shell = new GroovyShell()
 def tools = shell.parse(new File("/var/lib/jenkins/workspace/testseed/jobs/connect.groovy"))
-println(tools.connect.file)
+println(tools.file)
 
 
 
