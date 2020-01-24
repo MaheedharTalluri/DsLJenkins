@@ -7,6 +7,8 @@ def jS = new JsonSlurper()
  def reader = new BufferedReader(new InputStreamReader(new FileInputStream("/var/lib/jenkins/workspace/testseed/sample.json"),"UTF-8"))
 def data = jS.parse(reader) 
 file=data.ci.jobs.job.job_name
+file.replace("[","");
+file.replace("]","")
 println(file)
 
 pipelineJob(file) {
