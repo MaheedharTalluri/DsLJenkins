@@ -6,9 +6,19 @@ def data = jS.parse(reader)
 String j1=data.ci.jobs.job.job_name
 String j2=j1.replace("[","");
 String job=j2.replace("]","");
-def jobname=job
-def map = [NAME : jobname ]
-System.setProperty("NAME", "jobname")
-println(NAME)
+
+String j=data.ci.jobs.job.dsl_fileName
+println(j)
+
+String j3=j.replace("[","");
+String dsl=j3.replace("]","");
+println(dsl)
+
+def jobname(){
+job_name=job
+}
+
+path="/var/lib/jenkins/workspace/testseed/"+dsl
+println(path)
 //context.testCase.setPropertyValue('JOB_NAME', 'jobname')
-evaluate(new File("/var/lib/jenkins/workspace/testseed/jobs/dsl_script.groovy"))
+evaluate(new File(path))
