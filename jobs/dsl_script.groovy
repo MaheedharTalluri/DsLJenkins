@@ -5,7 +5,7 @@
 
 GroovyShell shell=new GroovyShell()
 def tool = shell.parse(new File("/var/lib/jenkins/workspace/testseed/jobs/final.groovy"))
-file=tools.filename.file_name
+file=tool.filename.file_name
 
 
 
