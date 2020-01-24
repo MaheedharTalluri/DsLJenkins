@@ -19,4 +19,4 @@ println(dsl)
 path="/var/lib/jenkins/workspace/testseed/"+dsl
 println(path)
 
-run(new File(path))
+run(new File(path),[job] as String[])

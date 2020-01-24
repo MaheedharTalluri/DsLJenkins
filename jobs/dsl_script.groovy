@@ -1,5 +1,5 @@
-apply plugin: 'groovy'
-pipelineJob('EDN250') {
+class var(String [],args){
+pipelineJob(args[0]) {
 
 
 definition{
@@ -19,5 +19,6 @@ triggers {
     }
 
 
+}
 }
 }
