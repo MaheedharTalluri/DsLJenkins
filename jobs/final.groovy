@@ -14,11 +14,7 @@ String j3=j.replace("[","");
 String dsl=j3.replace("]","");
 println(dsl)
 
-class jobname(){
-def greet(){
-job_name=job
-}
-}
+
 
 path="/var/lib/jenkins/workspace/testseed/"+dsl
 println(path)
