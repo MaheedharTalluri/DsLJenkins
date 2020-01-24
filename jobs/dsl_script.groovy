@@ -12,6 +12,8 @@ String f1=f.replace("[","");
 String file=f1.replace("]","");
 println(file)
 
+println(file.getClass())
+
 pipelineJob(file) {
 
 
