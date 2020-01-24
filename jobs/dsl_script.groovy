@@ -1,12 +1,12 @@
 evaluate(new File("/var/lib/jenkins/workspace/testseed/jobs/connect.groovy"))
 
 
+def jobname=j_n
 
 
 
 
-
-println(j_n)
+println(jobname)
 
 
 
