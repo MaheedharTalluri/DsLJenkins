@@ -1,6 +1,5 @@
-/*evaluate(new File("/var/lib/jenkins/workspace/testseed/jobs/connect.groovy"))*/
 
-pipelineJob("EDN250") {
+pipelineJob('EDN250') {
 
 
 definition{
