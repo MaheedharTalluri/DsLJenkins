@@ -1,11 +1,11 @@
 /*evaluate(new File("/var/lib/jenkins/workspace/testseed/jobs/final.groovy"))*/
 
 
+import final.*
 
-
-GroovyShell shell=new GroovyShell()
-def tool = shell.parse(new File("/var/lib/jenkins/workspace/testseed/jobs/final.groovy"))
-file=tool.jobname.job_name
+/*GroovyShell shell=new GroovyShell()
+def tool = shell.parse(new File("/var/lib/jenkins/workspace/testseed/jobs/final.groovy"))*/
+file=final.jobname.job_name
 
 
 
