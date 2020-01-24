@@ -1,4 +1,4 @@
-class var(String [],args){
+
 pipelineJob(args[0]) {
 
 
@@ -19,6 +19,5 @@ triggers {
     }
 
 
-}
 }
 }
