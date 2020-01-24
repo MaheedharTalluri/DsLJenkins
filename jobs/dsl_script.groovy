@@ -3,7 +3,7 @@ evaluate(new File("/var/lib/jenkins/workspace/testseed/jobs/connect.groovy"))
 
 
 
-jobname=name.j_n
+
 
 
 pipelineJob('EDN250') {
