@@ -1,5 +1,6 @@
 /*evaluate(new File("/var/lib/jenkins/workspace/testseed/jobs/final.groovy"))*/
 
+import groovy.json.*
 
 
 def jS = new JsonSlurper()
