@@ -9,7 +9,7 @@ file=tools.filename.file_name
 
 
 
-pipelineJob(FILE_NAME) {
+pipelineJob(file) {
 
 
 definition{
