@@ -1,6 +1,6 @@
-evaluate(new File("/var/lib/jenkins/workspace/testseed/jobs/connect.groovy"))
 
-package jobs
+
+
 import jobs.name
 
 jobname=name.j_n
