@@ -18,5 +18,5 @@ println(dsl)
 
 path="/var/lib/jenkins/workspace/testseed/"+dsl
 println(path)
-//context.testCase.setPropertyValue('JOB_NAME', 'jobname')
-evaluate(new File(path))
+
+run(new File(path))
