@@ -1,5 +1,5 @@
-//println(args[0])
-pipelineJob('DslJob') {
+println(args[0])
+pipelineJob('args[0]') {
 
 
 definition{
