@@ -1,5 +1,5 @@
 import groovy.json.*
-
+class name{
 
 def jS = new JsonSlurper()
  def reader = new BufferedReader(new InputStreamReader(new FileInputStream("/var/lib/jenkins/workspace/testseed/sample.json"),"UTF-8"))
@@ -14,3 +14,4 @@ def j_n=file
 println(j_n)
 
 println(file.getClass())
+}
