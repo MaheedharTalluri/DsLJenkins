@@ -1,4 +1,4 @@
-evaluate(new File("/var/lib/jenkins/workspace/testseed/))
+evaluate(new File("/var/lib/jenkins/workspace/testseed/connect.groovy))
 
 
 
