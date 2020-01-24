@@ -1,17 +1,12 @@
 evaluate(new File("/var/lib/jenkins/workspace/testseed/jobs/connect.groovy"))
 
+package jobs
+import jobs.name
 
-def jobname=j_n
-
-
-
-
-println(jobname)
+jobname=name.j_n
 
 
-
-
-pipelineJob(j_n) {
+pipelineJob(jobname) {
 
 
 definition{
