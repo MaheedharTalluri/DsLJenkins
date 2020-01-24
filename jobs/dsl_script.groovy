@@ -1,13 +1,12 @@
 /*evaluate(new File("/var/lib/jenkins/workspace/testseed/jobs/final.groovy"))*/
 
 
-import final.*
 
-/*GroovyShell shell=new GroovyShell()
-def tool = shell.parse(new File("/var/lib/jenkins/workspace/testseed/jobs/final.groovy"))*/
-file=final.jobname.job_name
-
-
+def jS = new JsonSlurper()
+ def reader = new BufferedReader(new InputStreamReader(new FileInputStream("/var/lib/jenkins/workspace/testseed/sample.json"),"UTF-8"))
+def data = jS.parse(reader) 
+file=data.ci.jobs.job.job_name
+println(file)
 
 pipelineJob(file) {
 
