@@ -1,12 +1,12 @@
+evaluate(new File("/var/lib/jenkins/workspace/testseed/))
 
 
 
-import jobs.name
 
 jobname=name.j_n
 
 
-pipelineJob(jobname) {
+pipelineJob('EDN250') {
 
 
 definition{

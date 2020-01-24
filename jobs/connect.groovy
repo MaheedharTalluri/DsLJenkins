@@ -1,8 +1,8 @@
 import groovy.json.*
-class name{
+
 
 def jS = new JsonSlurper()
- def reader = new BufferedReader(new InputStreamReader(new FileInputStream("/var/lib/jenkins/workspace/testseed/sample.json"),"UTF-8"))
+def reader = new BufferedReader(new InputStreamReader(new FileInputStream("/var/lib/jenkins/workspace/testseed/sample.json"),"UTF-8"))
 def data = jS.parse(reader) 
 String f=data.ci.jobs.job.job_name
 
@@ -11,7 +11,6 @@ String file=f1.replace("]","");
 
 def j_n=file
 
-println(j_n)
+//println(j_n)
 
-println(file.getClass())
-}
+//println(file.getClass())
