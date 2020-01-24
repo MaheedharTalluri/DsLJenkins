@@ -14,7 +14,7 @@ println(file)
 
 println(file.getClass())
 
-pipelineJob(file) {
+pipelineJob("EDN250") {
 
 
 definition{
