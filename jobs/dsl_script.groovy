@@ -1,6 +1,6 @@
 evaluate(new File("/var/lib/jenkins/workspace/testseed/jobs/connect.groovy"))
 
-
+println(file)
 
 
 
