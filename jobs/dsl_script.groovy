@@ -15,7 +15,7 @@ scm {
     }
   }
 triggers {
-        cron('* * * * *')
+        cron('H * * * *')
     }
 
 
